@@ -106,7 +106,7 @@ function createFloatingElements() {
         container.appendChild(div);
     });
 
-    config.floatingEmojis.bears.forEach(cat => {
+    config.floatingEmojis.cats.forEach(cat => {
         const div = document.createElement('div');
         div.className = 'cat';
         div.innerHTML = cat;

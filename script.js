@@ -106,13 +106,13 @@ function createFloatingElements() {
         container.appendChild(div);
     });
 
-    config.floatingEmojis.cats.forEach(cat => {
-        const div = document.createElement('div');
-        div.className = 'cat';
-        div.innerHTML = cat;
-        setRandomPosition(div);
-        container.appendChild(div);
-    });
+   // config.floatingEmojis.cats.forEach(cat => {
+        //const div = document.createElement('div');
+       // div.className = 'cat';
+      //  div.innerHTML = cat;
+       // setRandomPosition(div);
+       // container.appendChild(div);
+   // });
 }
 
 // Set random position for floating elements

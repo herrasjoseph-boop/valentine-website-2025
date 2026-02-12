@@ -105,6 +105,14 @@ function createFloatingElements() {
         setRandomPosition(div);
         container.appendChild(div);
     });
+
+    config.floatingEmojis.bears.forEach(bear => {
+        const div = document.createElement('div');
+        div.className = 'cats';
+        div.innerHTML = cats;
+        setRandomPosition(div);
+        container.appendChild(div);
+    });
 }
 
 // Set random position for floating elements

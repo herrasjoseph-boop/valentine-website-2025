@@ -106,10 +106,10 @@ function createFloatingElements() {
         container.appendChild(div);
     });
 
-    config.floatingEmojis.bears.forEach(cats => {
+    config.floatingEmojis.bears.forEach(cat => {
         const div = document.createElement('div');
-        div.className = 'cats';
-        div.innerHTML = cats;
+        div.className = 'cat';
+        div.innerHTML = cat;
         setRandomPosition(div);
         container.appendChild(div);
     });
